@@ -1,0 +1,45 @@
+12:22:56.082 INFO  manager.ApplicationManager - All tests run in chrome browser
+12:22:56.905 INFO  manager.ApplicationManager - Current url---->https://contacts-app.tobbymarshall815.vercel.app/home
+12:22:56.944 INFO  tests.TestBase - Start method with name--->removeAllContactsSuccess
+12:22:56.947 INFO  manager.MyListener - WebDriver2 start find element--->By.xpath: //button[text()='Sign Out']
+12:23:01.968 INFO  manager.MyListener - WebDriver start find element--->By.cssSelector: a[href='/login']
+12:23:01.998 INFO  manager.MyListener - WebDriver found element by locator--->By.cssSelector: a[href='/login']
+12:23:02.061 INFO  manager.MyListener - WebDriver start find element--->By.xpath: //input[1]
+12:23:02.087 INFO  manager.MyListener - WebDriver found element by locator--->By.xpath: //input[1]
+12:23:02.210 INFO  manager.MyListener - WebDriver start find element--->By.xpath: //input[2]
+12:23:02.237 INFO  manager.MyListener - WebDriver found element by locator--->By.xpath: //input[2]
+12:23:02.353 INFO  manager.MyListener - WebDriver start find element--->By.xpath: //button[1]
+12:23:02.378 INFO  manager.MyListener - WebDriver found element by locator--->By.xpath: //button[1]
+12:23:02.413 INFO  manager.MyListener - WebDriver2 start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:03.360 INFO  manager.MyListener - WebDriver2 start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:03.510 INFO  manager.MyListener - WebDriver start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:03.534 INFO  manager.MyListener - WebDriver found element by locator--->By.cssSelector: .contact-item_card__2SOIM
+12:23:03.588 INFO  manager.MyListener - WebDriver start find element--->By.xpath: //button[text()='Remove']
+12:23:03.615 INFO  manager.MyListener - WebDriver found element by locator--->By.xpath: //button[text()='Remove']
+12:23:03.652 INFO  manager.MyListener - WebDriver2 start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:03.799 INFO  manager.MyListener - WebDriver start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:03.815 INFO  manager.MyListener - WebDriver found element by locator--->By.cssSelector: .contact-item_card__2SOIM
+12:23:03.845 INFO  manager.MyListener - WebDriver start find element--->By.xpath: //button[text()='Remove']
+12:23:08.893 INFO  manager.MyListener - The name of method with Error-->findElement
+12:23:08.896 INFO  manager.MyListener - We have a problem-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Remove']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'BENNY-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5d62104fb2dcf493dc3c88083a143ed, findElement {using=xpath, value=//button[text()='Remove']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Alla\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57117}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57117/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5d62104fb2dcf493dc3c88083a143ed
+12:23:08.901 INFO  tests.TestBase - Start method with name--->removeOneContactSuccess
+12:23:08.902 INFO  manager.MyListener - WebDriver2 start find element--->By.xpath: //button[text()='Sign Out']
+12:23:08.919 INFO  manager.MyListener - WebDriver2 start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:09.044 INFO  manager.MyListener - WebDriver2 start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:09.161 INFO  manager.HelperBase - Count before remove is 16
+12:23:09.163 INFO  manager.MyListener - WebDriver2 start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:09.264 INFO  manager.HelperBase - List of Contact not Empty
+12:23:09.265 INFO  manager.MyListener - WebDriver start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:09.278 INFO  manager.MyListener - WebDriver found element by locator--->By.cssSelector: .contact-item_card__2SOIM
+12:23:09.311 INFO  manager.MyListener - WebDriver start find element--->By.xpath: //button[text()='Remove']
+12:23:09.329 INFO  manager.MyListener - WebDriver found element by locator--->By.xpath: //button[text()='Remove']
+12:23:09.364 INFO  manager.MyListener - WebDriver2 start find element--->By.cssSelector: .contact-item_card__2SOIM
+12:23:09.481 INFO  manager.HelperBase - Count after remove is 16
